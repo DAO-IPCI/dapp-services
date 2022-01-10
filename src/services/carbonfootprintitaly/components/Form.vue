@@ -958,6 +958,26 @@ export default {
           group: "company",
           show: ['neutrality'],
         },
+        n_reference_year: {
+          label: this.$t("carbonfootprintitaly.cfpReferenceYear"),
+          value: "",
+          type: "number",
+          rules: [],
+          error: false,
+          group: "company",
+          show: ['neutrality'],
+        },
+        n_notes: {
+          label: this.$t("carbonfootprintitaly.cfpNotes"),
+          value: "",
+          type: "text",
+          rules: [],
+          error: false,
+          group: "company",
+          show: ['neutrality'],
+        },
+
+
         // reduction about
         r_detail_info_name: {
           label: this.$t("carbonfootprintitaly.RDetailInfoName"),

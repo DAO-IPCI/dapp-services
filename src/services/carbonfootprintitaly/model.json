@@ -370,6 +370,16 @@
       "data_type": "String"
     },
     {
+      "suffix": "/n_reference_year",
+      "rosbag_type": "std_msgs/String",
+      "data_type": "String"
+    },
+    {
+      "suffix": "/n_notes",
+      "rosbag_type": "std_msgs/String",
+      "data_type": "String"
+    },
+    {
       "suffix": "/cfpn_chart",
       "rosbag_type": "std_msgs/String",
       "data_type": "String"
